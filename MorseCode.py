@@ -38,13 +38,13 @@ def main():
         print(answerlist)
 
 def importText():
-    f = open("/Users/bronwynerb/Python/PythonMorseCode/text.txt", "r")
+    f = open("testing_text.txt", "r")
     sentence = f.read()
     print(sentence)
     return (sentence)
 
 def audio(sentence, standardMode, alphabet): 
-    tone = AudioPlayer("/Users/bronwynerb/Python/PythonMorseCode/800hz.wav")
+    tone = AudioPlayer("800hz.wav")
 
     #Standard Timing
     wpm = 25
